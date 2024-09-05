@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://timsync.github.io/fellowship",
   "scripts": {
     "dev": "vite --host",
     "preview": "vite preview",
     "build": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/",
-    "homepage": "https://timsync.github.io/fellowship"
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "less": "^4.2.0",
