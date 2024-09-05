@@ -1,38 +1,25 @@
-
-name: develop-website
-
-on: 
- push: 
-   branches: ['main']
- workflow_dispatch:
- 
+name: Build and Deploy Website
+on:
+  push:
+    branches:
+      - main
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-  
-      - uses: actions/checkout@v2
-      - name: install nodejs
-        uses: actions/setup-node@v4.0.3
-        with: 
-          node-version: '14.x'
-      - name: install deps
-        run: npm install
-      - name: build app
-        run: npm run build
-      - name: copy dist file with scp
-        uses: appleboy/scp-action@v0.0.1
-        with: 
-         host: ''
-         username: ''
-         password: ''
-         post: 22
-         source: 'dist/'
-         target: ''
-
-         
-
-
-
-      
+    - name: install Node.js
+      uses: actions/setup-node@v4.0.3
+      with:
+        node-version: 20
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install and Build
+      run: |
+        npm install
+        npm run build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: main
+        FOLDER: build
