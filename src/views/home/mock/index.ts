@@ -14,7 +14,7 @@ export const sectionCard: SectionCard[] = [
     desc: "每周六晚19:00 - 21:00",
   },
   {
-    color: "#0798ec",
+    color: "#537895",
     title: "",
     subTitle: "",
     desc: "",
@@ -23,7 +23,7 @@ export const sectionCard: SectionCard[] = [
     color: "",
     title: "诚邀您的加入",
     subTitle: "联系我们",
-    desc: "我们希望在未来的年日里，继续从青年团契中走出更多符合上帝心意的同工，如有感动可联系团契负责人胡姊妹，（电话：17344079671，微信同号）",
+    desc: "我们希望在未来的年日里，继续从青年团契中走出更多符合上帝心意的同工，如有感动可联系团契负责人胡姊妹。<br />（电话：173xxxxx671，微信同号）",
   },
 ];
 

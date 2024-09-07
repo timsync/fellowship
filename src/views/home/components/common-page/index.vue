@@ -4,7 +4,7 @@
     <div class="section-ct">
       <div class="section-title">{{ source.title }}</div>
       <div class="section-subTitle">{{ source.subTitle }}</div>
-      <div class="section-desc">{{ source.desc }}</div>
+      <div class="section-desc"><div v-html="source.desc"></div></div>
       <div class="section-btnwrap"><slot name="button"></slot></div>
     </div>
   </div>

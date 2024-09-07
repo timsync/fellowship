@@ -1,14 +1,5 @@
 <template>
   <div>
-    <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="../..//../../assets/img/section-1.jpeg" alt="" />
-      </div>
-      <div class="img-desc active-desc">向右滑动查看更多</div>
-    </div>
-  </div>
   <div class="slide active">
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
