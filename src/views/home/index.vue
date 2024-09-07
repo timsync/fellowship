@@ -78,7 +78,7 @@ const handleLearnTime = () => {
 }
 
 #secetion0 {
-    background-image: url('../../assets/img//img8.jpeg');
+    background-image: url('@/assets/img//img8.jpeg');
     background-position: center;
 }
 
