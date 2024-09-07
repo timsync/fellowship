@@ -78,8 +78,9 @@ const handleLearnTime = () => {
 }
 
 #secetion0 {
-    background-image: url('@/assets/img//img8.jpeg');
+    background-image: url('@/assets/img/xk.jpeg');
     background-position: center;
+    background-size: cover;
 }
 
 // 联系我们
