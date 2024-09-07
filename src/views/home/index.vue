@@ -30,11 +30,10 @@ import maskModal from "../home/components/mask-modal/index.vue"
 const options = ref({
     licenseKey: "null",
     sectionsColor: sectionCard.map((item) => item.color), // 每个section的背景色
-    dragAndMovedragAndMove: true,
-    navigation: true,
+    // navigation: true,
     // silde
     controlArrows: false,
-    slidesNavigation: true,
+    // slidesNavigation: true,
     touchSensitivity: 10,
 });
 
@@ -79,7 +78,7 @@ const handleLearnTime = () => {
 }
 
 #secetion0 {
-    background-image: url('@/assets/img/xk.jpeg');
+    background-image: url('@/assets/img//xk.jpeg');
     background-position: center;
     background-size: cover;
 }

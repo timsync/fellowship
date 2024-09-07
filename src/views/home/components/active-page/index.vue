@@ -4,7 +4,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img1.jpg" alt="" />
+        <img class="img" src="@/assets/img//img1.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
@@ -13,7 +13,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img2.jpg" alt="" />
+        <img class="img" src="@/assets/img//img2.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
@@ -22,7 +22,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img3.jpg" alt="" />
+        <img class="img" src="@/assets/img//img3.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
@@ -31,7 +31,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img4.jpg" alt="" />
+        <img class="img" src="@/assets/img//img4.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
@@ -40,7 +40,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img5.jpg" alt="" />
+        <img class="img" src="@/assets/img//img5.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
@@ -49,7 +49,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img6.jpg" alt="" />
+        <img class="img" src="@/assets/img//img6.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
@@ -58,7 +58,7 @@
     <div class="slide-ct">
         <div class="active-title">活动瞬间</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img/img7.jpg" alt="" />
+        <img class="img" src="@/assets/img//img7.jpg" alt="" />
       </div>
       <div class="img-desc active-desc">左右滑动查看更多</div>
     </div>
