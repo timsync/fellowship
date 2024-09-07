@@ -35,6 +35,7 @@ const options = ref({
     // silde
     controlArrows: false,
     slidesNavigation: true,
+    touchSensitivity: 10,
 });
 
 const showReunionModal = ref(false)
