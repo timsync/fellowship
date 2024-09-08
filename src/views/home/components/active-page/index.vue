@@ -1,86 +1,20 @@
 <template>
   <div>
-  <div class="slide active">
+  <div v-for="(item, index) in activePicList" class="slide active">
     <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
+        <div class="active-title">{{ item.title }}</div>
       <div class="img-box">
-        <img class="img" src="@/assets/img//img1.jpg" alt="" />
+        <img class="img" :src="item.url" alt="" />
       </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
-    </div>
-  </div>
-  <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="@/assets/img//img2.jpg" alt="" />
-      </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
-    </div>
-  </div>
-  <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="@/assets/img//img3.jpg" alt="" />
-      </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
-    </div>
-  </div>
-  <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="@/assets/img//img4.jpg" alt="" />
-      </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
-    </div>
-  </div>
-  <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="@/assets/img//img5.jpg" alt="" />
-      </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
-    </div>
-  </div>
-  <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="@/assets/img//img6.jpg" alt="" />
-      </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
-    </div>
-  </div>
-  <div class="slide active">
-    <div class="slide-ct">
-        <div class="active-title">活动瞬间</div>
-      <div class="img-box">
-        <img class="img" src="@/assets/img//img7.jpg" alt="" />
-      </div>
-      <div class="img-desc active-desc">左右滑动查看更多</div>
+      <div class="img-desc active-desc">{{ item.desc }}</div>
     </div>
   </div>
   </div>
 </template>
 
 <script setup lang="ts">
-// import type { SectionCard } from "../../assets/types";
+import { activePicList } from './assets/index'
 
-// const props = withDefaults(
-//   defineProps<{
-//     source: SectionCard;
-//   }>(),
-//   {
-//     source: () => ({
-//       title: "",
-//       subTitle: "",
-//       color: "",
-//     }),
-//   }
-// );
 </script>
 
 <style scoped lang="less">
